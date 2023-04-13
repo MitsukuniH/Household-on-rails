@@ -18,5 +18,6 @@ module HouseholdAccount
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.hosts << 'household-account.onrender.com'
   end
 end
